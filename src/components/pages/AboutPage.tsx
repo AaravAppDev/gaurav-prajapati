@@ -49,9 +49,9 @@ export default function AboutPage() {
                   Browse Products
                 </Button>
               </Link>
-              <Link to="/manage">
+              <Link to="/admin">
                 <Button variant="outline" className="border-secondary/50 text-primary hover:bg-secondary/20">
-                  Manage Store
+                  Admin Panel
                 </Button>
               </Link>
             </div>
@@ -224,8 +224,8 @@ export default function AboutPage() {
                 <Link to="/" className="block font-paragraph text-primary/70 hover:text-primary transition-colors">
                   All Products
                 </Link>
-                <Link to="/manage" className="block font-paragraph text-primary/70 hover:text-primary transition-colors">
-                  Manage Products
+                <Link to="/admin" className="block font-paragraph text-primary/70 hover:text-primary transition-colors">
+                  Admin Panel
                 </Link>
                 <Link to="/about" className="block font-paragraph text-primary/70 hover:text-primary transition-colors">
                   About Us

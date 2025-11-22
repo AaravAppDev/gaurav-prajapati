@@ -49,18 +49,15 @@ export default function HomePage() {
               <Link to="/" className="font-paragraph text-primary hover:text-primary/80 transition-colors">
                 Products
               </Link>
-              <Link to="/manage" className="font-paragraph text-primary hover:text-primary/80 transition-colors">
-                Manage
-              </Link>
               <Link to="/about" className="font-paragraph text-primary hover:text-primary/80 transition-colors">
                 About
               </Link>
             </nav>
 
-            <Link to="/manage">
+            <Link to="/admin">
               <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
                 <Plus className="w-4 h-4 mr-2" />
-                Add Product
+                Admin
               </Button>
             </Link>
           </div>
