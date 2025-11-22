@@ -40,9 +40,9 @@ export default function HomePage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-sm">M</span>
+                <span className="text-primary-foreground font-heading font-bold text-sm">GP</span>
               </div>
-              <span className="font-heading text-xl font-bold text-primary">MeeshoStore</span>
+              <span className="font-heading text-xl font-bold text-primary">Gaurav Prajapati</span>
             </div>
             
             <nav className="hidden md:flex items-center space-x-8">
@@ -81,7 +81,7 @@ export default function HomePage() {
             
             <p className="font-paragraph text-lg text-primary/80 mb-8 max-w-2xl">
               Explore our curated collection of premium products, carefully selected for quality and value. 
-              Shop directly through our Meesho store for the best deals.
+              Discover handpicked items that offer the best deals and exceptional quality.
             </p>
 
             {/* Search Bar */}
@@ -199,7 +199,7 @@ export default function HomePage() {
                       className="w-full"
                     >
                       <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 group">
-                        Shop on Meesho
+                        View Product
                         <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                       </Button>
                     </a>

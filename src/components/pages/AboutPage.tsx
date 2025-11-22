@@ -33,15 +33,14 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="font-heading text-5xl font-bold text-primary leading-tight mb-6">
-              Your Trusted
+              Meet Gaurav
               <br />
-              <span className="text-primary italic">Meesho</span> Partner
+              <span className="text-primary italic">Product Curator</span>
             </h1>
             
             <p className="font-paragraph text-lg text-primary/80 mb-8">
-              We're passionate about bringing you the finest selection of products through our 
-              Meesho store. Our commitment to quality, affordability, and customer satisfaction 
-              drives everything we do.
+              I'm passionate about discovering and curating the finest selection of products. 
+              My commitment to quality, affordability, and customer satisfaction drives everything I do.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -154,29 +153,29 @@ export default function AboutPage() {
             <div className="space-y-4 font-paragraph text-primary/80">
               <p>
                 What started as a passion for finding great products at amazing prices 
-                has grown into a thriving Meesho store that serves customers across the country.
+                has grown into a thriving collection that serves customers across the country.
               </p>
               
               <p>
-                We believe that everyone deserves access to quality products without 
-                breaking the bank. That's why we've partnered with Meesho to bring you 
-                the best deals and fastest delivery.
+                I believe that everyone deserves access to quality products without 
+                breaking the bank. That's why I carefully curate and share the best deals 
+                and products with exceptional value.
               </p>
               
               <p>
-                Our team carefully curates each product in our collection, ensuring 
+                Every product in my collection is handpicked, ensuring 
                 that you get the best value for your money. From fashion to home goods, 
-                we've got something for everyone.
+                I've got something for everyone.
               </p>
             </div>
 
             <div className="mt-8 p-6 bg-secondary/20 rounded-2xl">
               <h3 className="font-heading text-xl font-bold text-primary mb-2">
-                Our Mission
+                My Mission
               </h3>
               <p className="font-paragraph text-primary/80">
                 To make quality products accessible to everyone through exceptional 
-                service and unbeatable prices on the Meesho platform.
+                curation and unbeatable prices.
               </p>
             </div>
           </div>
