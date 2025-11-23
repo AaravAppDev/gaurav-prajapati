@@ -5,7 +5,7 @@ import { Products } from '@/entities';
 import { Image } from '@/components/ui/image';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Search, Plus, ExternalLink } from 'lucide-react';
+import { Search, Plus, ExternalLink, Eye } from 'lucide-react';
 
 export default function HomePage() {
   const [products, setProducts] = useState<Products[]>([]);
@@ -188,19 +188,28 @@ export default function HomePage() {
                     )}
                   </div>
                   
-                  {product.meeshoLink && (
-                    <a
-                      href={product.meeshoLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-full"
-                    >
-                      <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 group">
-                        View Product
-                        <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                  <div className="space-y-2">
+                    <Link to={`/product/${product._id}`} className="w-full block">
+                      <Button className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 group">
+                        <Eye className="w-4 h-4 mr-2" />
+                        Full View
                       </Button>
-                    </a>
-                  )}
+                    </Link>
+                    
+                    {product.meeshoLink && (
+                      <a
+                        href={product.meeshoLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full"
+                      >
+                        <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 group">
+                          View Product
+                          <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                        </Button>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             ))}
